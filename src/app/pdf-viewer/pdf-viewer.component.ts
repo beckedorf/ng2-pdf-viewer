@@ -22,7 +22,7 @@ import {
   PDFSource,
   PDFProgressData,
   PDFPromise
-} from 'pdfjs-dist';
+} from 'pdfjs-dist/index';
 import * as PDFJS from 'pdfjs-dist/es5/build/pdf';
 import * as PDFJSViewer from 'pdfjs-dist/es5/web/pdf_viewer';
 
