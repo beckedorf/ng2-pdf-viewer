@@ -1,6 +1,6 @@
 {
   "name": "pdf-forms-viewer-temp",
-  "version": "6.4.1",
+  "version": "6.4.3",
   "description": "Angular 5+ component for rendering PDF",
   "license": "MIT",
   "scripts": {
