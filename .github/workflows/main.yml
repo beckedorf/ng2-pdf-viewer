@@ -15,11 +15,9 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: '@beckedorf'
+          node-version: '12.x'
+          registry-url: 'https://npm.pkg.github.com/'
       - run: npm ci
-      - run: echo @beckedorf:registry=https://npm.pkg.github.com/ >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}
