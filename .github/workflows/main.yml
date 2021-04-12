@@ -19,7 +19,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@beckedorf'
       - run: npm ci
-      - run: echo registry=https://npm.pkg.github.com/beckedorf >> .npmrc
+      - run: echo @beckedorf:registry=https://npm.pkg.github.com/ >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}
