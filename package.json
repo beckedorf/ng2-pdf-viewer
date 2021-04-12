@@ -40,7 +40,8 @@
   "dependencies": {
     "@types/pdfjs-dist": "~2.7.1",
     "pdfjs-dist": "~2.7.570",
-    "tslib": "^1.10.0"
+    "tslib": "^1.10.0",
+    "worker-loader": "^3.0.8"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.1",
