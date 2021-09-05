@@ -1,5 +1,5 @@
 {
-  "name": "ng2-pdf-viewer",
+  "name": "pdf-forms-viewer-temp",
   "version": "7.0.1",
   "description": "Angular 5+ component for rendering PDF",
   "license": "MIT",
@@ -21,7 +21,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://vadimdez@github.com/VadimDez/ng2-pdf-viewer.git"
+    "url": "git+https://beckedorf@github.com/beckedorf/ng2-pdf-viewer.git"
   },
   "keywords": [
     "angular",
@@ -35,9 +35,9 @@
   ],
   "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
   "bugs": {
-    "url": "https://github.com/VadimDez/ng2-pdf-viewer/issues"
+    "url": "https://github.com/beckedorf/ng2-pdf-viewer/issues"
   },
-  "homepage": "https://github.com/VadimDez/ng2-pdf-viewer#readme",
+  "homepage": "https://github.com/beckedorf/ng2-pdf-viewer#readme",
   "dependencies": {
     "pdfjs-dist": "~2.9.359",
     "tslib": "^2.3.0"
